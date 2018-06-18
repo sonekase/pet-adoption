@@ -10,10 +10,55 @@
   <body>
     <div class="container">
       <h1>Pet Adoption</h1>
-
-
-
+      <div class="row">
+        <div class="col-md-9">
+          <div class="animals">
+            <h2>Tiger</h2>
+            <img src="img/tiger.jpg" alt="tiger">
+          </div>
+          <div class="animals">
+            <h2>Crocodile</h2>
+            <img src="img/crocodile.jpg" alt="crocodile">
+          </div>
+          <div class="animals">
+            <h2>Orca</h2>
+            <img src="img/orcas.jpg" alt="orca">
+          </div>
+          <div class="animals">
+            <h2>Otters</h2>
+            <img src="img/otters.jpg" alt="otters">
+          </div>
+          <div class="animals">
+            <h2>Panda</h2>
+            <img src="img/pandas.jpg" alt="panda">
+          </div>
+          <div class="animals">
+            <h2>Polar Bear</h2>
+            <img src="img/polarbear.jpg" alt="polar bear">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2>Name</h2>
+          <p>Breed: <span id="breed"></span></p>
+          <p>Status: <span id="status"></span></p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-info" id="add-animal">Add animal for Adoption</button>
+      <form id="pet-adoption">
+        <div class="form-group">
+          <label for="input-name">Name</label>
+          <input type="text" id="input-name">
+        </div>
+        <div class="form-group">
+          <label for="input-breed">Breed</label>
+          <input type="text" id="input-breed">
+        </div>
+        <div class="form-group">
+          <label for="input-picture">Picture</label>
+          <input type="text" id="input-picture">
+        </div>
+        <button type="submit" id="button-submit" class="btn btn-info">ADD</button>
+      </form>
     </div>
-
   </body>
 </html>
