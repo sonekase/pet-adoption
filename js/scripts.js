@@ -30,8 +30,10 @@ $(document).ready(function() {
 
     arrayAnimals.push(newAnimal);
 
+    $("#pet-adoption").fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200).fadeOut(200).fadeIn(200);
+    // $("#pet-adoption").trigger("reset");
     $("#pet-adoption").hide();
-    $("#pet-adoption").trigger("reset");
+
 
   });
 });
