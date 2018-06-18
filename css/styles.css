@@ -2,6 +2,20 @@ h1 {
   text-align: center;
 }
 
+#demo {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  border: 5px solid red;
+  padding: 1%;
+  border-radius: 5em;
+}
+
+.item {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 4;
+}
+
 img {
   width: 200px;
   height: 200px;
